@@ -69,7 +69,7 @@ public class Nodolibro {
         setGenero(Ge);
         setEdicion(Ed);
     }
-    
+    //Pantalla principal
     void Mostrar()
     {
         JOptionPane.showMessageDialog(null, "Codigo"+""+getCodigo()+"\n"+"Titulo:"+""+getTitulo()+"\n"+"Autor:"+""+getAutor()+"\n"+"Genero:"+""+getGenero()+"\n"+"Edicion:"+""+getEdicion()+"\n");
